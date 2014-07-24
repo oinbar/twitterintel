@@ -1,4 +1,6 @@
 <?php
+use Jenssegers\Mongodb\Model as Eloquent;
+
 
 use Illuminate\Auth\UserTrait;
 use Illuminate\Auth\UserInterface;

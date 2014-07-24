@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'mongodb',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -45,6 +45,16 @@ return array(
 	*/
 
 	'connections' => array(
+	
+		'mongodb' => array(
+		    'driver'   => 'mongodb',
+		    'host'     => 'localhost',
+		    'port'     => 27017,
+		    'username' => 'twitterintelDB',
+		    'password' => '',
+		    'database' => 'database'
+		),
+
 
 		'sqlite' => array(
 			'driver'   => 'sqlite',
